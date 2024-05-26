@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #051D40;
+}
+h2 {
+    font-family: inherit;
+    background-color: #814cdd; /* Cor de fundo */
+    color: #fff;
+    text-align: center; /* Centralizar horizontalmente */
+    padding: 10px; /* Adicionar padding para aumentar o tamanho do background */
+    max-width: 200px; /* Definir uma largura máxima para o elemento */
+    margin: 0 auto; /* Centralizar horizontalmente */
+    position: relative; /* Definir a posição relativa */
+}
+
+.icon {
+    background-image: url('login-da-conta.png'); /* URL da imagem */
+    background-size: 40px 40px; /* Tamanho da imagem */
+    background-repeat: no-repeat; /* Evitar a repetição da imagem */
+    background-position: left center; /* Posição da imagem */
+    width: 40px; /* Largura da imagem */
+    height: 40px; /* Altura da imagem */
+    display: inline-block; /* Permitir o alinhamento horizontal */
+    position: absolute; /* Definir a posição absoluta */
+    left: 170px; /* Ajustar a posição da imagem */
+    top: 40%; /* Centralizar verticalmente */
+    transform: translateY(-50%); /* Ajustar verticalmente */
+}
+
+.login-container {
+    width: 300px;
+    background-color: #522a96;
+    border-radius: 8px;
+    padding: 40px 60px;
+    box-shadow: 0px 0px 10px 0px rgba(165, 158, 158, 0.728);
+}
+
+.login-form h2 {
+    margin-bottom: 40px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.remember-me {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.remember-me input {
+    margin-right: 5px;
+
+}
+
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-footer a {
+    color: #ffaa00;
+    text-decoration: none;
+}
+
+.form-footer button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffaa00;
+    color: #fff;
+    cursor: pointer;
+    top: 90%;
+    left: 35%;
+    transition: background-color 0.3s ease;
+}
+
+.form-footer button:hover {
+    background-color: #f3a915d0;
+}
+
+.input-group label,
+.remember-me label {
+    color: #fff; /* Cor branca para os rótulos */
+}
+
+
+.remember-me input {
+    color: #fff; /* Cor branca para o texto de entrada */
+    background-color: #522a96; /* Cor de fundo */
+    border: 1px solid #fff; /* Cor da borda */
+}
+
+/* Ajustar o espaçamento do rótulo "Lembrar senha" */
+.remember-me {
+    margin-bottom: 15px;
+}
+
+/* Adicionar estilo ao rótulo "Lembrar senha" */
+.remember-me label {
+    margin-left: 5px; /* Adicionar margem à esquerda */
+}
+
+.image-container {
+    position: absolute; /* Posição absoluta em relação ao formulário */
+    bottom: 178px; /* Distância abaixo do botão */
+    left: 23.5%; /* Centralizar horizontalmente */
+    transform: translateX(180%); /* Centralizar horizontalmente */
+}
+
+.image-container img {
+    width: 220px; /* Definir a largura da imagem */
+    height: auto; /* Manter a proporção original */
+}

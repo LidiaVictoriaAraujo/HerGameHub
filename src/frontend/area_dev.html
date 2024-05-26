@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu de Navegação</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#051D40
+
+  }
+
+  h3{
+    color: #f2f2f2;
+  }
+
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    background-color: #FF5D4D;
+    color: black;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #FF5D4D;
+    padding: 14px 20px;
+    background-color: inherit;
+    margin: 0;
+  }
+
+  .navbar a, .dropdown:hover .dropbtn {
+    background-color: #FF5D4D;
+    color: black;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: rgb(223, 230, 239);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #FF5D4D;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#">Página Inicial</a>
+  <a href="#">Sobre</a>
+  <div class="dropdown">
+    <button class="dropbtn">Áreas 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Professora de programação</a>
+      <a href="#">Tech</a>
+      <a href="#">Desenvolvedora</a>
+    </div>
+  </div> 
+</div>
+
+<h3>Conteúdo da Página</h3>
+<p>Aqui está o conteúdo da sua página.</p>
+
+</body>
+</html>
