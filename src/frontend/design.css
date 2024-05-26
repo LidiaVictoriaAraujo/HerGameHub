@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 150vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #051D40;
+  background-image: url('c2-removebg-preview.png');
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+ h1, h2 {
+  color: #66D0E0;
+  text-align: center;
+  font-size: medium;
+  margin-top: 60px; /* Adicionando margem superior para separar do banner */
+  padding: 25px;
+}
+
+.banner {
+  background-image: url('logoreal.png'); 
+  background-size: cover;
+  background-position: center;
+  border-radius: 200px; 
+  padding: 200px;
+  top: 150%;
+  left: 266%;
+  box-shadow: 0px 8px 16px rgba(196, 18, 219, 0.884);
+  animation: fadeIn 3s ease;
+  margin-bottom: 40px;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+button.botao1 {
+  background-color: #9155F6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  top: 100%;
+  left: 266%;
+}
+
+button.botao1:hover {
+  background-color: #9055f693;
+}
+
+button.botao2 {
+  background-color: #05ABC4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  top: 40%;
+  left: 35%;
+}
+
+button.botao2:hover {
+  background-color: #05abc490;
+}
